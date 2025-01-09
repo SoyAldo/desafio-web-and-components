@@ -1,7 +1,7 @@
 function placeFooter(element) {
   element.innerHTML = `
     <div class="footer-container">
-      <a class="footer__logo" href="./index.html">Tu Logo</a>
+      <a class="footer__logo" href="./index.html">DonOsvaldo</a>
 
       <div class="footer__links-container">
         <nav class="footer__nav">

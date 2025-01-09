@@ -51,7 +51,7 @@ function main() {
   placeWelcome(
     document.querySelector(".welcome"),
     "Hola",
-    "Soy Marce",
+    "Soy Osvaldo",
     "rocket.svg"
   );
   // Colocando información en "about"

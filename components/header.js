@@ -1,7 +1,7 @@
 function placeHeader(element) {
   element.innerHTML = `
   <div class="header__container">
-    <a class="header__logo" href="index.html">Tu Logo</a>
+    <a class="header__logo" href="index.html">DonOsvaldo</a>
     <img class="header__mobile-menu" src="./assets/menu.svg" alt="mobile menu" />
 
     <div class="header__mobile-modal">
