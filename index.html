@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Componente de cabecera de página -->
+    <link rel="stylesheet" href="./components/header.css" />
+    <script src="./components/header.js"></script>
+    <!-- Componente de bienvenida -->
+    <link rel="stylesheet" href="./components/welcome.css" />
+    <script src="./components/welcome.js"></script>
+    <!-- Componente de contacto-->
+    <link rel="stylesheet" href="./components/contact.css" />
+    <script src="./components/contact.js"></script>
+    <!-- Componente de tarjeta -->
+    <link rel="stylesheet" href="./components/card.css" />
+    <script src="./components/card.js"></script>
+    <!-- Componente de pie de página -->
+    <link rel="stylesheet" href="./components/footer.css" />
+    <script src="./components/footer.js"></script>
+    <!-- Importanto la hoja de estilos y el javascript de la página -->
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script defer src="./pages/index.js"></script>
+  </head>
+  <body>
+    <header class="header"></header>
+    <section class="welcome"></section>
+
+    <section class="about">
+      <div class="about__container">
+        <div class="about__texts">
+          <h1 class="about__title"></h1>
+          <p class="about__description"></p>
+        </div>
+        <img class="about__image" src="" alt="about image" />
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services__container">
+        <h2 class="services__title">Mis <span>servicios</span></h2>
+        <div class="cards"></div>
+      </div>
+    </section>
+
+    <section class="contact"></section>
+    <footer class="footer"></footer>
+  </body>
+</html>
